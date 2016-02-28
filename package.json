@@ -1,0 +1,29 @@
+{
+  "name": "super-strava",
+  "version": "1.0.0",
+  "description": "Strava on Smarties",
+  "author": "Simon White",
+  "license": "ISC",
+  "engines": {
+    "node": "4.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "fred": "ll",
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1",
+    "jquery": "^2.2.0"
+  },
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "request": "^2.69.0"
+  }
+}
