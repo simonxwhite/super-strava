@@ -7,3 +7,6 @@ npm-debug.log
 
 # Sublime
 *.sublime-workspace
+
+# build files
+/app/public/js

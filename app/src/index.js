@@ -1,3 +1,6 @@
+var $ = require('jquery');
+var jQuery = $;
+
 $(function() {
   // setup connect url
   var params = {
