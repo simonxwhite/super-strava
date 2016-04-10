@@ -4,5 +4,11 @@ module.exports = {
   output: {
     path: __dirname + '/app/public/js',
     filename: 'app.js'
+  },
+
+  module: {
+    loaders:[
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' }
+    ]
   }
 }

@@ -1,5 +1,5 @@
-var $ = require('jquery');
-var jQuery = $;
+const $ = require('jquery');
+const jQuery = $;
 
 $(function() {
   // setup connect url
@@ -28,9 +28,10 @@ $(function() {
       dataType: 'jsonp',
     };
 
-    $.getJSON(athleteUrl + '?callback=?', settings.data, function(data) {
-       console.log(data);
-    });
+    $.getJSON(athleteUrl + '?callback=?', settings.data, data => console.log(data));
+    // $.getJSON(athleteUrl + '?callback=?', settings.data, function(data) {
+    //    console.log(data);
+    // });
 
     // $.ajax(settings)
     //   .done(function(data) {
